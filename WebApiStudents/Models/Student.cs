@@ -36,7 +36,7 @@ namespace WebApiStudents.Models
         public string School { get; set; }
 
         /// <summary>
-        /// Dodatkowa informacja
+        /// Dodatkowa informacja - poprawka komentarza
         /// </summary>
         public string AdditionalInfo { get; set; }
     }
