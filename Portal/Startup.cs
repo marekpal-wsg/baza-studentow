@@ -41,7 +41,7 @@ namespace Portal
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            //User Routing Test
+            //User Routing Test  s
             app.UseRouting();
 
             app.UseAuthorization();
