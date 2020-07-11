@@ -21,5 +21,10 @@ namespace WebApiStudents.Models
         public DateTime BirthDate { get; set; }
 
         public string Address { get; set; }
+
+        /// <summary>
+        /// Oceny studenta
+        /// </summary>
+        List<Grade> Grades { get; set; }
     }
 }
