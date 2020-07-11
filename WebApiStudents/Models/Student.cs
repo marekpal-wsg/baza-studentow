@@ -18,6 +18,8 @@ namespace WebApiStudents.Models
 
         public int Album { get; set; }
 
+        public int MothersName { get; set; }
+
         public DateTime BirthDate { get; set; }
 
         /// <summary>
@@ -33,13 +35,11 @@ namespace WebApiStudents.Models
         /// <summary>
         /// Ukończona szkoła średnia
         /// </summary>
-        public string School { get; set; }
+        public string SchoolName { get; set; }
 
         /// <summary>
         /// Dodatkowa informacja - poprawka komentarza (Marek)
         /// </summary>
-        public string AdditionalInfo { get; set; }
-
-        //Kolejna zmiana
+        public string AdditionalInformation { get; set; }
     }
 }
