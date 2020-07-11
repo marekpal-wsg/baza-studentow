@@ -42,6 +42,7 @@ namespace WebApiStudents.Controllers
         }
 
         // PUT: api/Studenci/5
+        // dodatkowy opis metody Jacek K
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPut("{id}")]
