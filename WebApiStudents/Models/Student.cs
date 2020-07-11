@@ -39,5 +39,7 @@ namespace WebApiStudents.Models
         /// Dodatkowa informacja - poprawka komentarza (Marek)
         /// </summary>
         public string AdditionalInfo { get; set; }
+
+        //Kolejna zmiana
     }
 }
