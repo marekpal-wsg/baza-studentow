@@ -20,6 +20,9 @@ namespace WebApiStudents.Models
 
         public DateTime BirthDate { get; set; }
 
+        /// <summary>
+        /// Adres zamieszkania studenta
+        /// </summary>
         public string Address { get; set; }
 
         /// <summary>
@@ -27,6 +30,14 @@ namespace WebApiStudents.Models
         /// </summary>
         List<Grade> Grades { get; set; }
 
+        /// <summary>
+        /// Ukończona szkoła średnia
+        /// </summary>
+        public string School { get; set; }
+
+        /// <summary>
+        /// Dodatkowa informacja
+        /// </summary>
         public string AdditionalInfo { get; set; }
     }
 }
