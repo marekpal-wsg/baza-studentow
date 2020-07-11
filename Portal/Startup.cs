@@ -45,7 +45,7 @@ namespace Portal
             app.UseRouting();
 
             app.UseAuthorization();
-
+            // User Authorization
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
