@@ -40,6 +40,6 @@ namespace WebApiStudents.Models
         /// <summary>
         /// Dodatkowa informacja - poprawka komentarza
         /// </summary>
-        public string AdditionalInfo { get; set; }
+        public string AdditionalInformation { get; set; }
     }
 }
