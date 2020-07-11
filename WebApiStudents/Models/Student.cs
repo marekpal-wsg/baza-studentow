@@ -18,6 +18,8 @@ namespace WebApiStudents.Models
 
         public int Album { get; set; }
 
+        public int MothersName { get; set; }
+
         public DateTime BirthDate { get; set; }
 
         /// <summary>
