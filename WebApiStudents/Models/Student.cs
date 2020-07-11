@@ -26,5 +26,7 @@ namespace WebApiStudents.Models
         /// Oceny studenta
         /// </summary>
         List<Grade> Grades { get; set; }
+
+        public string AdditionalInfo { get; set; }
     }
 }
