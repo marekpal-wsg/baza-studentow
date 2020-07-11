@@ -35,7 +35,7 @@ namespace WebApiStudents.Models
         /// <summary>
         /// Ukończona szkoła średnia
         /// </summary>
-        public string School { get; set; }
+        public string SchoolName { get; set; }
 
         /// <summary>
         /// Dodatkowa informacja - poprawka komentarza (Marek)
